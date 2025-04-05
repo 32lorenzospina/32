@@ -20,4 +20,4 @@ for i in range(N):
 minimo = min(numeri)
 
 # Stampiamo il numero minimo
-print(f"Il numero minimo è: {minimo}")
+print(f"Il numero minimo è: {minimo}") 
