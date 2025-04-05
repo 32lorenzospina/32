@@ -5,17 +5,21 @@ Titolo: Scrivere un programma che legga il raggio r di una circonferenza e ne ca
 lunghezza.
 """
 
-import math  # Importiamo il modulo math per usare pi
+# Definizione del valore di pi greco
+pi = 3.14
 
-# Funzione principale
-def calcola_circonferenza():
-    raggio = float(input("Inserisci il raggio della circonferenza: "))  # Leggi il raggio dall'utente
-    area = math.pi * raggio ** 2  # Calcola l'area
-    lunghezza = 2 * math.pi * raggio  # Calcola la lunghezza
+# Funzione per calcolare la lunghezza e l'area della circonferenza
+def calcola_circonferenza(raggio):
+    lunghezza = 2 * pi * raggio
+    area = pi * (raggio ** 2)
+    return lunghezza, area
 
-    # Stampa i risultati
-    print(f"L'area della circonferenza è: {area:.2f}")
-    print(f"La lunghezza della circonferenza è: {lunghezza:.2f}")
+# Input dell'utente
+raggio = float(input("Inserisci il raggio della circonferenza: "))
 
-# Chiamata alla funzione
-calcola_circonferenza()
+# Calcolo della lunghezza e dell'area
+lunghezza, area = calcola_circonferenza(raggio)
+
+# Stampo i risultati
+print(f"La lunghezza della circonferenza è: {lunghezza}")
+print(f"L'area della circonferenza è: {area}")

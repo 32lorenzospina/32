@@ -7,7 +7,7 @@ fa inserire M voti, M dato in input, e ne scrive la media.
 
 """
 
-# Chiediamo il numero di alunni
+# Chiedo all'utente il numero di alunni
 num_alunni = int(input("Quanti alunni ci sono nella classe? "))
 
 # Cicliamo per ogni alunno

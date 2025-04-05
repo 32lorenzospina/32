@@ -10,7 +10,7 @@ pagare.
 """
 
 
-# Funzione per calcolare il prezzo del biglietto
+# definisco funzione per calcolare il prezzo del biglietto
 def calcola_prezzo(big, categoria):
     if categoria == 1:  # Pensionati
         sconto = 0.10
@@ -24,10 +24,10 @@ def calcola_prezzo(big, categoria):
     prezzo_finale = big * (1 - sconto)
     return prezzo_finale
 
-# Input dell'utente
+# Input utente
 costo_biglietto = float(input("Inserisci il costo del biglietto: "))
 categoria_utente = int(input("Inserisci la categoria (1: Pensionato, 2: Studente, 3: Disoccupato): "))
 
-# Calcolo e visualizzazione del prezzo finale
+# Calcolo del prezzo finale
 prezzo_da_pagare = calcola_prezzo(costo_biglietto, categoria_utente)
 print(f"L'importo da pagare è: {prezzo_da_pagare:.2f} euro")

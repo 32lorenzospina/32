@@ -24,7 +24,7 @@ def calcola_media(A, B):
     media = somma / conteggio
     return f"La media dei numeri tra {A} e {B} è: {media}"
 
-# Esempio di utilizzo
+# Esempio 
 A = float(input("Inserisci il valore di A: "))
 B = float(input("Inserisci il valore di B: "))
 print(calcola_media(A, B))

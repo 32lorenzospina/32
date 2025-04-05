@@ -5,7 +5,7 @@ Titolo: Scrivere un programma che legge N numeri da tastiera, N dato in input, e
 minimo.
 """
 
-# Chiediamo all'utente quanti numeri vuole inserire
+# Chiedo all'utente quanti numeri vuole inserire
 N = int(input("Quanti numeri vuoi inserire? "))
 
 # Inizializziamo una lista per memorizzare i numeri

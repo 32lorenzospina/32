@@ -14,11 +14,11 @@ spesa = float(input("Inserisci l'importo della spesa: "))
 # Inizializzazione dell'importo da pagare
 importo_da_pagare = spesa
 
-# Applicazione degli sconti
+# Applico gli sconti
 if spesa > 300:
     importo_da_pagare = spesa * 0.90  # Sconto del 10%
 elif spesa > 100:
     importo_da_pagare = spesa * 0.95  # Sconto del 5%
 
-# Visualizzazione dell'importo effettivo da pagare
+# Visualizzo l'importo effettivo da pagare
 print("L'importo effettivo da pagare è: €", importo_da_pagare)
